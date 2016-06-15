@@ -1,0 +1,129 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mon site mobile</title>
+	<link rel="stylesheet" href="themes/houlay.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	<div data-role="page" id="accueil">
+		<div data-role="header">
+		   <div data-role="navbar">
+			<ul>
+				<li> <a href="#accueil" data-icon="home" data-transition="slide"> Accueil</a></li>
+				<li> <a href="#inscription" data-icon="user" data-transition="slide">Inscription</a></li>
+				<li> <a href="#geolocalisation" data-icon="navigation" data-transition="slide">Géolocalisation</a></li>
+				<li> <a href="#contact" data-icon="mail" data-transition="slide">Contact</a></li>
+			</ul>
+			</div>
+		</div>
+		<div data-role="content">
+		  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+		<div data-role="footer">
+			
+		</div>	
+	</div>
+	<div data-role="page" id="inscription">
+		<div data-role="header">
+			<div data-role="navbar">
+				<ul>
+					<li> <a href="#accueil" data-icon="home" data-transition="slide"> Accueil</a></li>
+					<li> <a href="#inscription" data-icon="user" data-transition="slide">Inscription</a></li>
+					<li> <a href="#geolocalisation" data-icon="navigation" data-transition="slide">Géolocalisation</a></li>
+					<li> <a href="#contact" data-icon="mail" data-transition="slide">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="content">
+			  <div class="ui-field-contain">
+				    <div>
+			          <label for="nom">Nom</label>
+			          <input type="text" name="name" id="nom" value="Nom">
+			        </div>
+			        <div>  
+			          <label for="prenom">Prenom</label>
+			          <input type="text" name="name" id="name" value="Prenom">
+			        </div>
+			        <div>
+			          <label for="identifiant">Identifiant</label>
+			          <input type="text" name="name" id="identifiant" value="Identifiant">
+			        </div>
+			        <div>
+			          <label for="mail">E-mail</label>
+			          <input type="email" name="name" id="mail" value="E-mail">
+			        </div>
+			        <div>
+			          <label for="motDePasse">Mot de passe</label>
+			          <input type="password" name="name" id="motDePasse" value="Mot de passe">
+			        </div>
+			        <div>
+			          <label for="age">Date de naissance</label>
+			          <input type="date" name="name" id="age" value="" > 
+			        </div>
+			        <div>
+			            <label for="envoie"> </label>
+			          	<input type="submit" name="" id="envoie" value="Envoyez">
+			        </div>
+		          </div>
+		</div>
+		<div data-role="footer">
+			
+		</div>	
+	</div>
+	<div data-role="page" id="geolocalisation">
+		<div data-role="header">
+			<div data-role="navbar">
+				<ul>
+					<li> <a href="#accueil" data-icon="home" data-transition="slide"> Accueil</a></li>
+					<li> <a href="#inscription" data-icon="user" data-transition="slide">Inscription</a></li>
+					<li> <a href="#geolocalisation" data-icon="navigation" data-transition="slide">Géolocalisation</a></li>
+					<li> <a href="#contact" data-icon="mail" data-transition="slide">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="content">
+		     
+		</div>
+		<div data-role="footer">
+			
+		</div>		
+	</div>
+	<div data-role="page" id="contact">
+		<div data-role="header">
+			<div data-role="navbar">
+				<ul>
+					<li> <a href="#accueil" data-icon="home" data-transition="slide"> Accueil</a></li>
+					<li> <a href="#inscription" data-icon="user" data-transition="slide">Inscription</a></li>
+					<li> <a href="#geolocalisation" data-icon="navigation" data-transition="slide">Géolocalisation</a></li>
+					<li> <a href="#contact" data-icon="mail" data-transition="slide">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="content">
+			<form>
+				<label>Nom</label>
+				<input type="text" name="" placeholder="Votre nom">
+				<label>Prenom</label>
+				<input type="text" name="" placeholder="Votre prenom">
+				<label>Message</label>
+				<textarea placeholder="Votre message"></textarea>
+				<input type="submit" name="" value="Envoyez">
+				<input type="reset" name="" value="Réinitialisez">
+			</form>
+		</div>
+		<div data-role="footer">
+			
+		</div>		
+	</div>
+</body>
+</html>

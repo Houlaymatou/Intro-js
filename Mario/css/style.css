@@ -1,0 +1,24 @@
+body{
+	margin:0;
+   font-size:9px;
+  font-family:Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+#carte{
+  	width: 840px;
+  	height: 525px;
+  	margin: 200px auto;
+    background: #41d1cc url(../images/mape2.gif) no-repeat;
+    position: relative;
+}
+
+#mario {
+   width: 20px;
+   height: 35px;
+   background: url(../images/mario.gif)  no-repeat  -175px 1px;
+   border: transparent;
+   position: absolute;
+   left: 5px;
+   bottom: 55px;
+   z-index: 1000;
+}

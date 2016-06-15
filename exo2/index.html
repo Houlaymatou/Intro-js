@@ -1,0 +1,122 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exo2</title>
+	<link rel="stylesheet" href="themes/exercice.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="js/jquery.slides.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    							<!--Page accueil-->
+	<div data-role="page"  id="Accueil"> 
+	                             <!--la barre de menu Page accueil-->
+		<div data-role="header">
+			   <div data-role="navbar" data-theme="z">
+					<ul>
+						<li><a href="#Accueil" data-transition="fade" data-icon="home">Accueil</a></li>
+						<li><a href="#inscription" data-transition="fade" data-icon="user">Iscription</a></li>
+						<li><a href="#location" data-transition="fade" data-icon="navigation">Géolocalistion</a></li>
+					</ul>
+			    </div>
+		</div>
+		               <!--le corp de la Page accueil-->
+		<div data-role="content">
+		   <div id="photo">
+			   	<img src="images/1.jpg" alt="photo">
+			   	<img src="images/2.jpg" alt="photo">
+			   	<img src="images/3.jpg" alt="photo">
+			   	<img src="images/4.jpg" alt="photo">
+			   	<img src="images/5.jpg" alt="photo">
+			   	<img src="images/6.jpg" alt="photo">
+		   </div >
+		</div>
+		           <!--le pied de la Page accueil-->
+		<div data-role="footer">
+			
+		</div>
+	</div>
+	                      <!--page d'inscription-->  
+    <div data-role="page"  id="inscription">
+                           <!-- la barre de menu page d'inscription-->
+		<div data-role="header">
+			   <div data-role="navbar" >
+					<ul>
+						<li><a href="#Accueil" data-transition="fade" data-icon="home">Accueil</a></li>
+						<li><a href="#inscription" data-transition="fade" data-icon="user">Iscription</a></li>
+						<li><a href="#location" data-transition="fade" data-icon="navigation">Géolocalistion</a></li>
+					</ul>
+			    </div>
+		</div>
+									<!--Corps de la page d'inscription-->  
+		<div data-role="content">
+			
+			<div class="ui-field-contain">
+					<form>
+						<div>
+						    <label for="nom">Nom</label>
+						    <input type="text" name="name" id="nom" value="Nom">
+					    </div>
+					    <div>  
+						    <label for="prenom">Prenom</label>
+						    <input type="text" name="name" id="name" value="Prenom">
+					    </div>
+					    <div>
+					        <label for="identifiant">Identifiant</label>
+					        <input type="text" name="name" id="identifiant" value="Identifiant">
+					    </div>
+					    <div>
+					        <label for="mail">E-mail</label>
+					        <input type="email" name="name" id="mail" value="E-mail">
+					    </div>
+					    <div>
+					        <label for="motDePasse">Mot de passe</label>
+					        <input type="password" name="name" id="motDePasse" value="Mot de passe">
+					    </div>
+					    <div>
+					        <label for="age">Date de naissance</label>
+					        <input type="date" name="name" id="age" value="" > 
+					    </div>
+					    <div>
+					        <label for="envoie"> </label>
+					        <input type="submit" name="" id="envoie" value="Inscription">
+					    </div>
+				    </form>
+	        </div>
+				
+		</div>
+		                 <!--le pied de page d'inscription-->
+		<div data-role="footer">
+			
+		</div>
+	</div>
+	                        <!--page de géolocalisation-->
+	<div data-role="page" id="location">
+	                        <!--la barre de menu de la page de géolocalisation-->
+		<div data-role="header">
+			   <div data-role="navbar">
+					<ul>
+						<li><a href="#Accueil" data-transition="fade" data-icon="home">Accueil</a></li>
+						<li><a href="#inscription" data-transition="fade" data-icon="user">Iscription</a></li>
+						<li><a href="#location" data-transition="fade" data-icon="navigation">Géolocalistion</a></li>
+					</ul>
+			    </div>
+		</div>
+		            <!--le corps de la page de géolocalisation-->
+		<div data-role="content">
+			
+			blblablaba
+			
+		</div>
+		         <!--le pied de page de géolocalisation-->
+		<div data-role="footer">
+			
+		</div>
+	</div>
+</body>
+</html>

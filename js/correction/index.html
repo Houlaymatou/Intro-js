@@ -1,0 +1,45 @@
+<html>
+<head>
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+<style>
+#wrapper{
+	width:500px;
+	height:500px;
+	margin: 0 auto;
+}
+li {
+	width:50px;
+	height:50px;
+	border: 1px black solid;
+	border-radius: 2px;
+	display: inline-block;
+}
+#carre{
+	width: 100px;
+	height: 100px;
+	background-color:blue;
+	position:absolute;
+}
+.gauche {
+		left: +20px;
+	}
+.droite = {
+		right: +20px;
+	}
+.haut = {
+		top: +20px;
+	}
+.bas = {
+		bottom: +20px;
+	}
+</style>
+</head>
+<body>
+	<button id="gauche">gauche</button>
+	<button id="droite">droite</button>
+	<button id="haut">haut</button>
+	<button id="bas">bas</button>
+	<div id="carre"></div>
+</body>
+</html>

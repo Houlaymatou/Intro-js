@@ -1,0 +1,6 @@
+#menu ul li  {
+width: 100px;
+list-style: none;
+display: inline-block;
+text-align: center;
+}

@@ -1,0 +1,27 @@
+#tabs {
+	  border-color: transparent;
+}
+
+
+#fragment-2{
+	width: 100%;
+	height: 800px;
+	
+	background: url(../images/toit-paris.jpg) no-repeat;
+	
+}
+
+#chat {
+	position:relative;
+	width:500px;
+	height:500px;
+	top:100px;
+	overflow:hidden;
+	margin: auto;	
+}
+.chat {
+	position:absolute;
+	right:250px; /*en dehors de l'image pour le faire apparaitre de droite à gauche*/
+	bottom: 250px;
+	z-index:2;
+}

@@ -1,0 +1,58 @@
+/*
+@title - Pendu
+@author - Thibault
+@date - 06/06/2016
+*/
+
+//variable
+var cryptedWord ='';
+var continueGame = false;
+var cryptedArray = [];
+var tryCount = 0;
+//function
+
+//body script
+var word = prompt("Renseignez le mot à trouver");
+wordArray = word.split("");
+
+for (var i = word.length - 1; i >= 0; i--) {
+        cryptedWord = cryptedWord + "#";
+}
+
+var cryptedArray = cryptedWord.split("");
+
+for (var i = 5; i >= 0; i--) {
+    trycount = 0;
+    var winGameCount = 0;
+    console.log("Essais restants : " + i);
+    console.log("Mot : " + cryptedWord);
+    var tryWord = prompt("Essayez une lettre :");
+    
+    for (var j = word.length - 1; j >= 0; j--) {
+        if (wordArray[j] == tryWord) {
+            cryptedArray[j] = wordArray[j];
+            trycount++;
+        }
+    }
+    cryptedWord = cryptedArray.toString();
+    cryptedWord = cryptedWord.replace(/,/g, "");
+    
+    for (var k = word.length - 1; k >= 0; k--) {
+        if (cryptedWord.charAt(k) == "#") {
+            winGameCount++;
+        }
+    }
+
+    if (winGameCount == 0) {
+        console.log("Gagné !")
+        break;
+    }
+
+    if (trycount > 0) {
+        i++;
+    }
+
+    if (i == -1) {
+        console.log("Perdu !");
+    }
+}
